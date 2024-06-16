@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- Default Layout Import-->
+<html lang="ko"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout}"
+      layout:fragment="content"
+>
+    <main>
+        <!-- 콘텐츠 시작 -->
+        <section id="top">
+            <img th:src="@{/img/profile.jpeg}" alt="Profile Picture">
+            <p><span th:text="${introduction}">소개말</span></p>
+            <button onclick="scrollToSection('about')">더 알아보기 ↓</button>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        </section>
+
+        <section id="about">
+            <p>이름 <span th:text="${name}">이름</span><br/><span th:text="${nickname}">nickname</span></p>
+            <p>생년월일 <span th:text="${birthday}">생년월일</span></p>
+            <p>이메일 <span th:text="${email}">email</span></p>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        </section>
+
+        <section id="skills">
+            <h2>Programming Language / Web Tech</h2>
+            <p>Java, Javascript, HTML5, CSS3, JSP, Vue.js, jQuery</p>
+            <h2>Framework / Library</h2>
+            <p>Spring Boot, Restful API, JPA, QueryDSL, eGovFramework, Spring MVC, mybatis, Ext JS</p>
+            <h2>Database / Cache / Server </h2>
+            <p>MSSQL, Oracle, MySQL, PostgreSQL, Redis, Apache Tomcat</p>
+            <h2>Collaborations</h2>
+            <p>Git, SVN, Jira, Confluence, Figma</p>
+            <h2>Tools / Environment</h2>
+            <p> IntellijJ IDEA, Eclipse, Gradle, Maven, Swagger, TDD, AWS, Jenkins, macOS, Windows</p>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        </section>
+
+        <section id="career">
+            <h2>(주) 야나두</h2>
+            <p>2018.12 - 2023.10</p>
+            <h2>(주) 내가시스템</h2>
+            <p>2017.05 - 2018.12</p>
+            <h2>(주) 엠엔플러스</h2>
+            <p>2015.11 - 2016.09</p>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        </section>
+
+        <section id="archiving">
+            <h2>GitHub</h2>
+            <p>https://github.com/Bard-K</p>
+            <p>소스 코드 저장소입니다.</p>
+            <h2>TISTORY</h2>
+            <p>https://vennycode.tistory.com</p>
+            <p>공부 및 지식 공유 목적의 블로그입니다.</p>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        </section>
+
+        <section id="projects">
+            <h2>vennygo</h2>
+            <p>개인 홈페이지</p>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        </section>
+    </main>
+
+    <script th:src="@{/js/about.js}"></script>
+</html>

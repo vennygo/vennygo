@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" th:fragment="header">
+    <header>
+        <h1>
+            <a href="javascript:void(0)" onclick="scrollToSection('top')">
+                <img th:src="@{/img/vennygo.png}" alt="Profile Picture">
+            </a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('about')">About</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('skills')">Skills</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('career')">Career</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('archiving')">Archiving</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('projects')">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+</html>
