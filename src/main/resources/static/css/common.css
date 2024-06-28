@@ -33,11 +33,13 @@ nav ul li a {
 }
 
 main {
-    padding: 20px;
+    /*padding: 20px;*/
 }
 
 section {
-    margin-bottom: 40px;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    text-align: center;
 }
 
 img {
@@ -119,16 +121,60 @@ footer .footer_copyright {
     background-color: #ffffff;
 }
 
+.section_title {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
 
 #home {
     background-color: #f9f9f9;
 }
 
-#projects, #resume, #contact {
+#resume, #contact {
     background-color: #fff;
 }
 
 #top img {
-    width: 500px;
-    float: left;
+    margin: auto;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.bg_violet_1 {
+    background-color: #9900B3;
+}
+.bg_violet_2 {
+    background-color: #E6E6CC;
+}
+.bg_violet_3 {
+    background-color: #E6FF80;
+}
+.bg_violet_4 {
+    background-color: #FF80CC;
+}
+.bg_violet_5 {
+    background-color: #BFBFBF;
+}
+
+.bg_halloween_1 {
+    background-color: #FFA145;
+}
+.bg_halloween_2 {
+    background-color: #FF541C;
+}
+.bg_halloween_3 {
+    background-color: #8F2BCE;
+    color: #ffa145;
+}
+.bg_halloween_4 {
+    background-color: #4AA970;
+    color: #fff;
+}
+.bg_halloween_5 {
+    background-color: #4E323E;
+    color: #fff;
 }

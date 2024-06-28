@@ -10,7 +10,7 @@ public class AboutController {
     @GetMapping("/about")
     public String about(Model model) {
         model.addAttribute("pageTitle", "About Page");
-        model.addAttribute("introduction", "안녕하세요.");
+        model.addAttribute("introduction", "Venny");
         model.addAttribute("name", "고은혜");
         model.addAttribute("nickname", "venny");
         model.addAttribute("birthday", "94.12.16");

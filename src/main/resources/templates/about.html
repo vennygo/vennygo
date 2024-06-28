@@ -10,19 +10,19 @@
         <!-- 콘텐츠 시작 -->
         <section id="top">
             <img th:src="@{/img/profile.jpeg}" alt="Profile Picture">
-            <p><span th:text="${introduction}">소개말</span></p>
-            <button onclick="scrollToSection('about')">더 알아보기 ↓</button>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <p><span th:text="${introduction}" style="color: #8F2BCE;">소개말</span></p>
+            <button class="bg_halloween_3" onclick="scrollToSection('about')">더 알아보기 ↓</button>
         </section>
 
-        <section id="about">
-            <p>이름 <span th:text="${name}">이름</span><br/><span th:text="${nickname}">nickname</span></p>
-            <p>생년월일 <span th:text="${birthday}">생년월일</span></p>
-            <p>이메일 <span th:text="${email}">email</span></p>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <section id="about" class="bg_halloween_1">
+            <div class="section_title" style="color: #4E323E;">about</div>
+            <p><span th:text="${name}">이름</span>, <span th:text="${nickname}">nickname</span></p>
+            <p><span th:text="${birthday}">생년월일</span></p>
+            <p><span th:text="${email}">email</span></p>
         </section>
 
-        <section id="skills">
+        <section id="skills" class="bg_halloween_5">
+            <div class="section_title">skills</div>
             <h2>Programming Language / Web Tech</h2>
             <p>Java, Javascript, HTML5, CSS3, JSP, Vue.js, jQuery</p>
             <h2>Framework / Library</h2>
@@ -33,35 +33,33 @@
             <p>Git, SVN, Jira, Confluence, Figma</p>
             <h2>Tools / Environment</h2>
             <p> IntellijJ IDEA, Eclipse, Gradle, Maven, Swagger, TDD, AWS, Jenkins, macOS, Windows</p>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </section>
 
-        <section id="career">
+        <section id="career" class="bg_halloween_4">
+            <div class="section_title">career</div>
             <h2>(주) 야나두</h2>
             <p>2018.12 - 2023.10</p>
             <h2>(주) 내가시스템</h2>
             <p>2017.05 - 2018.12</p>
             <h2>(주) 엠엔플러스</h2>
             <p>2015.11 - 2016.09</p>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </section>
 
-        <section id="archiving">
+        <section id="archiving" class="bg_halloween_1">
+            <div class="section_title" style="color: #4E323E;">archiving</div>
             <h2>GitHub</h2>
-            <p>https://github.com/Bard-K</p>
-            <p>소스 코드 저장소입니다.</p>
+            <p><a href="https://github.com/Bard-K">https://github.com/Bard-K</a></p>
+            <p>소스 코드 저장소</p><br/>
             <h2>TISTORY</h2>
-            <p>https://vennycode.tistory.com</p>
-            <p>공부 및 지식 공유 목적의 블로그입니다.</p>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <p><a href="https://vennycode.tistory.com">https://vennycode.tistory.com</a></p>
+            <p>공부 및 지식 공유 목적의 블로그</p>
         </section>
 
         <section id="projects">
+            <div class="section_title" style="color: #8F2BCE;">projects</div>
             <h2>vennygo</h2>
+            <p><a href="https://www.vennygo.com">https://www.vennygo.com</a></p>
             <p>개인 홈페이지</p>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </section>
     </main>
 
