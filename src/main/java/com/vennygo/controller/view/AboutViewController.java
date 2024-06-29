@@ -1,13 +1,15 @@
-package com.vennygo.controller;
+package com.vennygo.controller.view;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class AboutController {
+@RequestMapping("/about")
+public class AboutViewController {
 
-    @GetMapping("/about")
+    @GetMapping("")
     public String about(Model model) {
         model.addAttribute("pageTitle", "About Page");
         model.addAttribute("introduction", "Venny");
@@ -16,20 +18,5 @@ public class AboutController {
         model.addAttribute("birthday", "94.12.16");
         model.addAttribute("email", "eunhea2186@gmail.com");
         return "about";
-    }
-
-    @GetMapping("/header")
-    public String header() {
-        return "fragments/header";
-    }
-
-    @GetMapping("/footer")
-    public String footer() {
-        return "fragments/footer";
-    }
-
-    @GetMapping("/layout")
-    public String layout() {
-        return "layouts/layout";
     }
 }

@@ -1,0 +1,98 @@
+exception:
+  common:
+    code: "500"
+    msg: "오류가 발생했습니다."
+  signIn:
+    loginFail:
+      code: "4001"
+      msg: "로그인에 실패했습니다."
+    noUserInfo:
+      code: "4002"
+      msg: "사용자 정보가 존재하지 않습니다."
+    noUserInfoSns:
+      code: "4022"
+      msg: "사용자 정보가 존재하지 않습니다."
+    noUserRole:
+      code: "4003"
+      msg: "사용자 권한이 존재하지 않습니다."
+    withdrawal:
+      code: "4004"
+      msg: "탈퇴한 회원입니다."
+    withdrawalSns:
+      code: "4021"
+      msg: "탈퇴한 회원입니다."
+    wrongPassword:
+      code: "4005"
+      msg: "비밀번호가 일치하지 않습니다."
+    sleep:
+      code: "4023"
+      msg: "휴면회원 입니다."
+    not-sleep:
+      code: "4007"
+      msg: "휴면회원이 아닙니다."
+    not-matched-cellphone:
+      code: "4008"
+      msg: "회원정보의 전화번호와 일치하지 않습니다."
+    invalid-password:
+      code: "4009"
+      msg: "사용 불가능한 비밀번호입니다."
+  unauthorized:
+    code: "401"
+    msg: "로그인 정보가 없습니다."
+  accessDenied:
+    code: "403"
+    msg: "접근 권한이 없습니다."
+  empty:
+    code: "500"
+    msg: "데이터가 없습니다."
+  jwt:
+    ExpiredJwtException:
+      code: "4011"
+      msg: "토큰 기한 만료"
+    MalformedJwtException:
+      code: "4012"
+      msg: "잘못된 형식의 토큰"
+    SignatureException:
+      code: "4013"
+      msg: "토큰 서명 오류"
+    UnsupportedJwtException:
+      code: "4014"
+      msg: "일치하지 않는 형식의 토큰"
+    IllegalArgumentException:
+      code: "4015"
+      msg: "토큰 오류"
+  certification:
+    noCertification:
+      code: "4031"
+      msg: "인증번호를 다시 발송해 주세요."
+    noCertificationKey:
+      code: "4032"
+      msg: "인증에 실패하였습니다.[인증키 오류]"
+    expiredCertification:
+      code: "4033"
+      msg: "인증에 실패하였습니다.[인증시간 만료]"
+    noCertificationNumber:
+      code: "4034"
+      msg: "인증에 실패하였습니다.[인증번호 오류]"
+  sign-up:
+    exist-id:
+      code: "4041"
+      msg: "이미 사용중인 아이디입니다."
+    invalid-id:
+      code: "4042"
+      msg: "아이디는 6~12자의 영문, 숫자만 사용 가능합니다."
+    invalid-name:
+      code: "4043"
+      msg: "이름은 한글, 영어만 사용가능합니다."
+    invalid-age:
+      code: "4044"
+      msg: "만 14세 미만은 가입할 수 없습니다."
+    exist-user:
+      code: "4045"
+      msg: "이미 가입된 회원입니다. 아이디 찾기를 이용해주세요."
+    exist-cellphone:
+      code: "4046"
+      msg: "이미 가입된 번호입니다."
+    missing-value:
+      code: "4050"
+      msg: "필수값 누락"

@@ -1,0 +1,98 @@
+exception:
+  common:
+    code: "500"
+    msg: "An error occurred."
+  signIn:
+    loginFail:
+      code: "4001"
+      msg: "Login failed."
+    noUserInfo:
+      code: "4002"
+      msg: "User information does not exist."
+    noUserInfoSns:
+      code: "4022"
+      msg: "User information does not exist."
+    noUserRole:
+      code: "4003"
+      msg: "User permission does not exist."
+    withdrawal:
+      code: "4004"
+      msg: "You are a member who has withdrawn."
+    withdrawalSns:
+      code: "4021"
+      msg: "You are a member who has withdrawn."
+    wrongPassword:
+      code: "4005"
+      msg: "Password does not match."
+    sleep:
+      code: "4023"
+      msg: "You are an inactive member."
+    not-sleep:
+      code: "4007"
+      msg: "You are not an inactive member."
+    not-matched-cellphone:
+      code: "4008"
+      msg: "It does not match the phone number in your member information."
+    invalid-password:
+      code: "4009"
+      msg: "Password is invalid."
+  unauthorized:
+    code: "401"
+    msg: "No login information found."
+  accessDenied:
+    code: "403"
+    msg: "You do not have access permission."
+  empty:
+    code: "500"
+    msg: "No data."
+  jwt:
+    ExpiredJwtException:
+      code: "4011"
+      msg: "Token expired"
+    MalformedJwtException:
+      code: "4012"
+      msg: "badly formatted token"
+    SignatureException:
+      code: "4013"
+      msg: "Token signing error"
+    UnsupportedJwtException:
+      code: "4014"
+      msg: "Token with inconsistent format"
+    IllegalArgumentException:
+      code: "4015"
+      msg: "token error"
+    certification:
+      noCertification:
+        code: "4031"
+        msg: "Please resend the authentication number."
+      noCertificationKey:
+        code: "4032"
+        msg: "Authentication failed. [Authentication key error]"
+      expiredCertification:
+        code: "4033"
+        msg: "Authentication failed. [Authentication time expired]"
+      noCertificationNumber:
+        code: "4034"
+        msg: "Authentication failed. [Authentication number error]"
+    sign-up:
+      exist-id:
+        code: "4041"
+        msg: "This ID is already in use."
+      invalid-id:
+        code: "4042"
+        msg: "ID can only be 6 to 12 characters, English and numbers."
+      invalid-name:
+        code: "4043"
+        msg: "Names can only be used in Korean or English."
+      invalid-age:
+        code: "4044"
+        msg: "Children under 14 cannot join."
+      exist-user:
+        code: "4045"
+        msg: "You are already a registered member. Please use the ID search."
+      exist-cellphone:
+        code: "4046"
+        msg: "The number is already registered."
+      missing-value:
+        code: "4050"
+        msg: "Missing required value"
