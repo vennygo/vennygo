@@ -1,54 +1,52 @@
-Hello, Vennygo Project
-
-markdown 연습 
-
-# 제목 1
-## 제목 2
-### 제목 3
-#### 제목 4
-##### 제목 5
-###### 제목 6
+# Vennygo
+Vennygo는 개인 홈페이지를 위한 웹 애플리케이션입니다. 이 프로젝트는 Java Spring Boot와 thymeleaf를 사용하여 개발합니다.
 
 
-**굵은 텍스트**
-*기울임 텍스트*
+## 🖥️ 프로젝트 소개
+Vennygo는 [베니고](https://www.vennygo.com)의 프로젝트이며, 개인 일기와 포트폴리오를 관리하기 위해 개발하고 있습니다.
+<br>
 
-- 아이템 1
-- 아이템 2
-  - 서브아이템 1
-  - 서브아이템 2
+## 🕰️ 개발 기간
+* 24.05.04일 ~
 
-1. 첫 번째 아이템
-2. 두 번째 아이템
-   1. 서브아이템 1
-   2. 서브아이템 2
+### 🧑‍🤝‍🧑 맴버구성
+ - vennygo
+
+### ⚙️ 개발 환경
+- **Language** : Java 17
+- **Framework** : Springboot (3.2.5)
+- **Database** : MariaDB (10.1.x UTF-8)
+- **ORM** : JPA
+- **Frontend**: Thymeleaf
+- **Build**: Gradle
+
+### 🖥️ 서버 환경
+- Tomcat 10.0.x
+- JSP 3.0
+- Servlet 5.0
+- JDK 17
+
+## ❗️ 시작하기
+이 섹션에서는 프로젝트를 로컬에서 설정하고 실행하는 방법을 설명합니다.
+
+### Prerequisites(전제조건)
+- JDK 17 이상
+
+### 설치
+1. 저장소를 클론합니다.
+2. 백엔드 설정:
+3. 프론트 설정:
 
 
-[링크 텍스트](https://www.vennycode.tistory.com)
+## 📌 주요 기능
+#### 메인
+- about
 
-![이미지 설명](https://tistory1.daumcdn.net/tistory/7013025/attach/fd2afb737f5e4cbdbbe636dda8348115)
+#### 회원가입
+- 기본 가입
+- 소셜 회원 가입
 
-`코드`
-
-```
-여러 행의 
-코드 블록
-```
-
-```java
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
-
-> 인용 텍스트
-
----
-***
-
-| 헤더 1 | 헤더 2 |
-|--------|--------|
-| 셀 1   | 셀 2   |
-| 셀 3   | 셀 4   |
+#### 로그인
+- Spring Security
+- 기본 로그인
+- 소셜 로그인
