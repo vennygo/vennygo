@@ -14,7 +14,7 @@ Vennygo는 [베니고](https://www.vennygo.com)의 프로젝트이며, 개인 �
 
 ### ⚙️ 개발 환경
 - **Language** : Java 17
-- **Framework** : Springboot (3.2.5)
+- **Framework** : Springboot (3.2.5), RESTful API
 - **Database** : MariaDB
 - **ORM** : JPA
 - **Frontend**: Thymeleaf
