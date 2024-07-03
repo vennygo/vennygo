@@ -37,12 +37,18 @@ Vennygo는 [베니고](https://www.vennygo.com)의 프로젝트이며, 개인 �
 ### 설치
 1. 저장소를 클론합니다.
 2. 백엔드 설정:
+   1. intelliJ
+      - Edit Configurations...
+        - Active Profiles
+          - local
 3. 프론트 설정:
-
   
 ## 🌐 배포 방법
 #### ROOT.war
 
+## Swagger
+- http://localhost:8080/swagger-ui.html
+- Springdoc 공식 가이드: https://springdoc.org/#features
   
 ## 📌 주요 기능
 #### 메인
