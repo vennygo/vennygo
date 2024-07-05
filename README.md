@@ -37,6 +37,8 @@ vennygo는 [베니고](https://www.vennygo.com)의 프로젝트이며, 개인 St
 2. 백엔드 설정:
    1. intelliJ
       - Edit Configurations...
+        - VM options
+          - -Djasypt.encryptor.password=⭐나만의비밀키⭐
         - Active Profiles
           - local
 4. 프론트 설정:
