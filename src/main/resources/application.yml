@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: vennygo
+  datasource:
+    url: ENC(3QRMHHmi7+iphOhAdX/lhdDEjQMBH5OvJCx1a87qOXQPXivbXDNB9xuJAx8qzDfi4BumrYPZHeNBk1k1z8tsFeB2wwVBgxXcGFpfglxh+Aw=)
+    username: ENC(20DkpmX1rk2KxdejZbNAsYOcwDG/NbvNiWfnBu1xbpPAX43N733lYSeRhHjkygcB)
+    password: ENC(Wklrs8nhUfEj1sehgaYIEd46i33lBxqcA779itncG7zDdBZ+5WYHvsj68cWAd0zJ)
+    driver-class-name: org.mariadb.jdbc.Driver
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  thymeleaf:
+    enabled: true
+    cache: false
+    check-template-location: true
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+
+server:
+  servlet:
+    jsp:
+      init-parameters:
+        development: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api-docs
