@@ -7,9 +7,19 @@
       layout:fragment="content"
 >
     <main>
+        <section id="menu">
+            <ul>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('top')">About</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('skills')">Skills</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('career')">Career</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('archiving')">Archiving</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('projects')">Projects</a></li>
+            </ul>
+        </section>
+
         <!-- 콘텐츠 시작 -->
         <section id="top">
-            <img th:src="@{/img/profile.jpeg}" alt="Profile Picture">
+            <img th:src="@{/images/profile.jpeg}" alt="Profile Picture">
             <p><span th:text="${introduction}" style="color: #8F2BCE;">소개말</span></p>
             <button class="bg_halloween_3" onclick="scrollToSection('about')">더 알아보기 ↓</button>
         </section>
@@ -41,14 +51,14 @@
             <p>2018.12 - 2023.10</p>
             <h2>(주) 내****</h2>
             <p>2017.05 - 2018.12</p>
-            <h2>(주) 엠****</h2>
+            <h2>(주) 엔****</h2>
             <p>2015.11 - 2016.09</p>
         </section>
 
         <section id="archiving" class="bg_halloween_1">
             <div class="section_title" style="color: #4E323E;">archiving</div>
             <h2>GitHub</h2>
-            <p><a href="https://github.com/Vennygo">https://github.com/Vennygo</a></p>
+            <p><a href="https://github.com/vennygo">https://github.com/vennygo</a></p>
             <p>소스 코드 저장소</p><br/>
             <h2>TISTORY</h2>
             <p><a href="https://vennycode.tistory.com">https://vennycode.tistory.com</a></p>
