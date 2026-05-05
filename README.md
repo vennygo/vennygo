@@ -18,7 +18,7 @@ Backend developer • AI tinkerer
 ### 🥕 What I'm working on
 
 - 🚀 **[Vennygo](https://vennygo.com)** 
-- 🎮 **Carrot Catch Game** 
+- 🎮 **[Carrot Catch Game](https://vennygo.com/games/carrot_catch)** 
 - 🤖 **AI Blog Posting SaaS** 
 
 ### 🛠 Tech I work with
@@ -50,14 +50,6 @@ Backend developer • AI tinkerer
 ![ChatGPT](https://img.shields.io/badge/-ChatGPT-74AA9C?style=flat-square&logo=openai&logoColor=white)
 ![Gemini](https://img.shields.io/badge/-Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white)
 
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-![Vennygo's GitHub stats](https://github-readme-stats.vercel.app/api?username=vennygo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&count_private=true)
-
-</div>
 
 ### ✍️ Recent Posts
 
