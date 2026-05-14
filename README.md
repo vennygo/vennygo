@@ -19,7 +19,6 @@ Backend developer • AI tinkerer
 
 - 🚀 **[Vennygo](https://vennygo.com)** 
 - 🎮 **[Carrot Catch Game](https://vennygo.com/games/carrot_catch)** 
-- 🤖 **AI Blog Posting SaaS** 
 
 ### 🛠 Tech I work with
 
